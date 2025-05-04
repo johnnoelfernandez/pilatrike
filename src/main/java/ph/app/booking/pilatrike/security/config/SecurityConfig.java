@@ -51,7 +51,8 @@ public class SecurityConfig {
                                 "/swagger-ui/**",                        // allow Swagger UI
                                 "/swagger-ui.html",                      // some versions use this path
                                 "/swagger-resources/**",                 // support resources
-                                "/webjars/**"                            // Swagger UI assets
+                                "/webjars/**",
+                                "/health"                         // Swagger UI assets
                         ).permitAll()   // allow register/login
                         .anyRequest().authenticated()                            // secure everything else
                 )
