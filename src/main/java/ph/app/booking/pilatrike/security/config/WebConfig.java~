@@ -1,0 +1,4 @@
+package ph.app.booking.pilatrike.security.config;
+
+public class WebConfig {
+}
