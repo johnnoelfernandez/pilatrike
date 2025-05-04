@@ -6,8 +6,6 @@ spring:
     url: jdbc:postgresql://aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
-#    username: postgres.abumikcoduxcoviyyklz
-#    password: G&75*f!&+&gtRA6
   jpa:
     hibernate:
       ddl-auto: update
@@ -16,4 +14,3 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 jwt:
   secret: ${JWT_SECRET}
-#  secret: QjVtV3oyZ0pSenN2Y0NOTE1ZYWxXbG4yVzhMbm5vWGc=
