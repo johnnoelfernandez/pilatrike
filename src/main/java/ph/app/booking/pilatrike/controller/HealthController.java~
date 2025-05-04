@@ -1,0 +1,4 @@
+package ph.app.booking.pilatrike.controller;
+
+public class HealthController {
+}
